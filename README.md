@@ -1,4 +1,4 @@
-# 🐱🐶 Cat vs Dog Image Classifier (Full-Stack AI App)
+# Cat vs Dog Image Classifier (Full-Stack AI App)
 
 A complete end-to-end AI application that classifies images as **Cat** or **Dog** using deep learning and transfer learning.
 
@@ -9,7 +9,7 @@ This project includes:
 
 ---
 
-## 🚀 Demo Features
+## Demo Features
 - Upload any image
 - AI predicts **Cat** or **Dog**
 - Shows prediction confidence
@@ -17,7 +17,7 @@ This project includes:
 
 ---
 
-## 🧠 Model Details
+## Model Details
 - Architecture: **MobileNetV2 (Transfer Learning)**
 - Dataset: Cats vs Dogs (custom cleaned split)
 - Train Accuracy: ~98%
@@ -27,7 +27,7 @@ This project includes:
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 realworld_image_classifier/
 ├── backend/ # FastAPI backend
 ├── frontend/ # React frontend
@@ -41,8 +41,7 @@ realworld_image_classifier/
 
 ## ▶️ How to Run Locally
 
-### 1️⃣ Backend
-```bash
+###1.Backend
 conda activate ai_env
 cd realworld_image_classifier
 uvicorn backend.app:app --reload --port 8000
@@ -60,7 +59,7 @@ npm run dev
 Open :
 http://localhost:5173
 
-📦 Tech Stack
+Tech Stack
 
 Python
 TensorFlow / Keras
